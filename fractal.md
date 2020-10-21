@@ -1,5 +1,5 @@
-#Fractal
-##(task for 5 points)
+# Fractal
+## (task for 5 points)
 The iterative algorithm giving the above solution is as follows:
 
 1. define 3 points (pairs of x and y coordinates) to represent the tips (corners) of the triangle - you can initialize them in the setup function
@@ -30,4 +30,5 @@ to them at the start of the draw function. You can also implement bouncing of th
 if the value if the corner pixel leaves the canvas area (as in a simple bouncing ball animation). 
 This animation will probably not run very smoothly. This is because instead of using the set command, 
 we should be directly manipulating the pixels array, as described on this page.
+
 ![fractal](/Assets/fractal.png)
