@@ -2,6 +2,7 @@
 ## (Task for 4.5 points)
 
 For this task, reproduce the image below by manipulating pixels on the screen. You can use only the methods described above and the random function
+
 ![painting](/Assets/painting.png)
 
 Tips
