@@ -26,7 +26,7 @@
                     var dy = (height / 2) - y;
                     var distance = sqrt(dx * dx + dy * dy);
                     //var rmax = sqrt((height / 2) * (height / 2) + (width / 2) * (width / 2));
-                    var rmax = height / 2;
+                    var rmax = height/2;
                     var green = (distance / rmax) * 256;
                     var red = 256 - green;
                     set(x, y, color(red, green, blue));
