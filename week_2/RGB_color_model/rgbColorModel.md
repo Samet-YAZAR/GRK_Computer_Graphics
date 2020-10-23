@@ -2,7 +2,7 @@
 ## (task for grade 3)
 The goal of this task is to divide the image into 3 components: R, G, and B, and draw these components as shown below:
 
-![rgb_color_model1](D:\Git\School_Related\GRK_JS\GRK_Computer_Graphics\week_2\Assets\rgb_color_model1.png)
+![rgb_color_model1](GRK_Computer_Graphics\week_2\Assets\rgb_color_model1.png)
 
 Let us start by creating 3 additional images, for storing the 3 color channels of the original image, named: img_r, img_g and img_b. This is done using the createImage() function:
 
@@ -23,7 +23,7 @@ Next, we have groups of width pixels (i.e. 4-element groups), where all groups t
 Finally, if we take height number of rows together, we form the complete image.
 For Retina displays, the number of pixels in each row and the number of rows in the image is increased d times (d can be read from the pixelDensity function). Therefore, the number of pixels for Retina is d*d times the number of pixels in regular screen.
 
-![rgb_color_model2](D:\Git\School_Related\GRK_JS\GRK_Computer_Graphics\week_2\Assets\rgb_color_model1.png)
+![rgb_color_model2](GRK_Computer_Graphics\week_2\Assets\rgb_color_model2.png)
 
 In order to iterate all the pixels in an image, the following procedure is applied:
 
