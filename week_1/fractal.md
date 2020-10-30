@@ -31,4 +31,4 @@ if the value if the corner pixel leaves the canvas area (as in a simple bouncing
 This animation will probably not run very smoothly. This is because instead of using the set command, 
 we should be directly manipulating the pixels array, as described on this page.
 
-![fractal](Assets/fractal.png)
+![fractal](./Assets/fractal.png)
