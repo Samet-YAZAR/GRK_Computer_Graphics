@@ -3,7 +3,7 @@
 
 For this task, reproduce the image below by manipulating pixels on the screen. You can use only the methods described above and the random function
 
-![painting](/Assets/painting.png)
+![painting](Assets/painting.png)
 
 Tips
 * make sure to draw everything in the right order - suggested order is:
