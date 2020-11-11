@@ -19,6 +19,9 @@
         var y0=-1;
         var x1=-1;
         var y1=-1;
+        var dx= -1;
+        var dy= -1;
+        var a=  -1;
     }
 
     function mousePressed() {
@@ -56,8 +59,18 @@
         y0 =round(y0);
         x1 =round(x1);
         y1 =round(y1);
+        dx =x1-x0;
+        dy =y1-y0;
+        a = dy / dx;
+
+    for(; x0!=x1;x0++){
+
+        b = y0 - cos(a) * x0;
+        y= cos(a) * x0 +b;
+        set_pixel(x0,y,255);
 
     }
+  }
 </script>
 
   </body>
