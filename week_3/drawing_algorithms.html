@@ -64,13 +64,19 @@
         dx =x1-x0;
         dy =y1-y0;
         a = dy / dx;
+        b = y0 - (a * x0);
+
+        if(x0 > x1) {
+          var temp = x0;
+          x0 = x1;
+          x1 = temp;
+        }
+
 
     for(; x0!=x1;x0++){
-
-        b = y0 - cos(a) * x0;
-        y= cos(a) * x0 +b;
-        set_pixel(x0,y,255);
-
+      set_pixel(x0,y0,255);
+        y0= (a* x0) +b;
+        y0 = round(y0);
     }
   }
 </script>
